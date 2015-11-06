@@ -7,7 +7,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel',
-        query: {stage: 0}
+        query: {stage: 0, plugins: ['./babelRelayPlugin']}
       }
     ]
   },
